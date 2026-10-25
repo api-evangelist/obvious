@@ -1,0 +1,54 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.obvious.ai/pricing
+sources:
+- https://www.obvious.ai/pricing
+- https://help.obvious.ai/agents/plans
+- https://help.obvious.ai/account/billing
+name: Obvious pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Standard
+  price_text: $199 / seat / month
+  price: 199
+  description: Full access included. Work all day with agents. 1× included Fusion usage.
+  features:
+  - Fusion usage included
+  - Priority support
+- name: Pro
+  price_text: $499 / seat / month
+  price: 499
+  description: Full access included. For continuous heavy agentic workloads. 5× included Fusion usage.
+  features:
+  - Fusion usage included
+  - Priority support
+- name: Personal
+  price_text: $25/month
+  price: 25
+  description: Personal plan for individual users. Includes 30 credits per month.
+  features:
+  - 30 credits per month
+- name: Personal Pro
+  price_text: $200/month
+  price: 200
+  description: Personal Pro plan for individual users. Includes 235 credits per month.
+  features:
+  - 235 credits per month
+- name: Team
+  price_text: $40/seat/month
+  price: 40
+  description: Team plan adds shared workspaces, unlimited team members, shared projects, roles and permissions, SSO, and audit logs. Includes
+    45 credits per seat per month.
+  features:
+  - 45 credits per seat per month
+- name: Team Pro
+  price_text: $240/seat/month
+  price: 240
+  description: Team Pro unlocks advanced features like multi‑threading, custom skills, and priority support. Includes 280 credits per seat per
+    month.
+  features:
+  - 280 credits per seat per month
+docs: https://www.obvious.ai/pricing
+note: 2 extracted row(s) were dropped because their quote was not on the page.

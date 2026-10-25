@@ -1,0 +1,46 @@
+generated: '2026-10-24'
+source: https://www.obvious.ai/security
+method: searched
+signals:
+  data_retention:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Data retention policies with automatic deletion. We automatically delete data after the retention period as described in our policy."
+    note: Provider states they have automatic deletion policies for data retention.
+  data_subject_request:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Where is my data stored? Your data is stored securely in our encrypted databases located in compliant regions."
+    note: FAQ includes a question about data location.
+  ai_transparency:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Do you train AI models on my data? We do not use customer data to train our AI models, ensuring privacy and confidentiality."
+    note: Provider addresses AI model training on user data.
+  data_subject_request_export:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Can I export or delete my data? Yes, you can export your data in a portable format or request deletion at any time."
+    note: FAQ offers export and deletion options.
+  data_subject_request_dpa:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Do you have a DPA available? A Data Processing Agreement is available upon request to meet compliance needs."
+    note: Provider mentions availability of a Data Processing Agreement.
+  data_subject_request_compliance:
+    evidence:
+      - source: https://www.obvious.ai/security
+        http_status: 200
+        fetched: "true"
+        quote: "Full compliance with GDPR, CCPA and other global data privacy regulations. We adhere to all major privacy frameworks."
+    note: Claims compliance with GDPR and CCPA.

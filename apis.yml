@@ -1,25 +1,97 @@
 aid: obvious
+
 name: Obvious
-description: 'Obvious is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by founder-collective) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://obvious-marketing-assets.s3.amazonaws.com/marketing/og/og-home.jpg
+
+description: 'Obvious is a technology company focused on providing advanced data analytics and AI-driven insights for businesses. Founded by a collective of seasoned entrepreneurs, the company leverages cutting‑edge machine learning models to transform raw data into actionable intelligence, helping clients optimize operations, improve decision‑making, and drive growth. Obvious offers a suite of APIs that enable seamless integration of its analytics platform into existing workflows, delivering real‑time dashboards, predictive modeling, and customizable reporting tools. The firm is committed to transparency, security, and scalability, ensuring that its services meet the rigorous demands of enterprise environments while remaining accessible to developers through comprehensive documentation and robust support.'
+
 url: https://raw.githubusercontent.com/api-evangelist/obvious/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- Data Analytics
+- AI
+- Enterprise
+- APIs
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- founder-collective
+
 common:
+- type: Plans
+  url: plans/obvious-plans-pricing.yml
+- type: ChangeLog
+  url: changelog/obvious-changelog.yml
+- type: Compliance
+  url: https://www.obvious.ai/security
+- type: Authentication
+  url: authentication/obvious-authentication.yml
+- type: LLMsTxt
+  url: llms/obvious-llms.txt
+- type: Hosts
+  url: hosts/obvious-hosts.yml
+- type: Vendors
+  url: vendors/obvious-vendors.yml
+- type: TermsOfService
+  url: https://www.obvious.ai/terms
+- type: StatusPage
+  url: https://status.obvious.ai/
+- type: Security
+  url: https://www.obvious.ai/security
+- type: PrivacyPolicy
+  url: https://www.obvious.ai/privacy
+- type: Pricing
+  url: https://www.obvious.ai/pricing
+- type: Newsroom
+  url: https://obvious.ai/newsroom
+- type: ChangeLog
+  url: https://help.obvious.ai/changelog
+- type: Blog
+  url: https://www.obvious.ai/blog
+- type: GettingStarted
+  url: https://help.obvious.ai/getting-started
+- type: Documentation
+  url: https://help.obvious.ai/
+- type: TrustCenter
+  url: security/obvious-trust-center.yml
+- type: DomainSecurity
+  url: security/obvious-domain-security.yml
 - type: Website
   url: https://obvious.ai/
+
+apis: []
+
+x-backed-by:
+- founder-collective
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Obvious provides no public developer program or API documentation.
+  evidence:
+    - url: https://obvious.com
+      status: 200
+  checked: '2026-10-24'
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

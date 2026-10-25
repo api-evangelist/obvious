@@ -1,0 +1,79 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.obvious.ai/changelog
+sources:
+- https://help.obvious.ai/changelog
+entries:
+- breaking: false
+  highlights:
+  - Each agent can now have its own speech voice in voice mode.
+  - New agents get a random voice from the existing list.
+  - Skills synced from a repository now update through a single process.
+  - Installing a skill from a ZIP file now works even when its SKILL.md is missing a name or description. Obvious fills those in for you.
+  date: '2026-10-21'
+- breaking: false
+  highlights:
+  - Routine step editors now open in a side drawer instead of a small pop-up, so more of your Routine stays visible while you edit.
+  - The notice that your saved Routine changes aren't running yet now has an Apply changes button, and the Routine assistant can apply them for
+    you.
+  - You can now attach a file to your first message to the Routine assistant.
+  - Pending usage charges now count against your balance.
+  date: '2026-10-20'
+- breaking: false
+  highlights:
+  - Skills you own now show a sharing badge (Shared with workspace, Shared with team, or Published) in Your Skills.
+  - If an agent suggests switching modes and you don't respond, the suggestion now goes through automatically after five minutes, with the same
+    access checks as a manual switch.
+  - Skills imported from a ZIP file or link can now save instruction edits, both in the dashboard editor and through skill updates in the SDK.
+  date: '2026-10-19'
+- breaking: false
+  highlights:
+  - Scheduled task descriptions and review header summaries now show their full text in the dashboard, for every review type.
+  - You can see the CI health of each repository's default branch right in the Settings repo list.
+  - Each member's GitHub and Slack connection status and actions sit in a menu on their row on the Members page.
+  - The full-page plan review always shows the complete approach and every task description. Nothing is truncated behind Show more or Show less.
+  date: '2026-10-15'
+- breaking: false
+  highlights:
+  - Right-clicking an agent's avatar now shows an Open agent home menu, so you can jump straight to that agent's home from a chat or mention.
+  - We renamed Custom Agents to Agents across the product.
+  date: '2026-10-14'
+- breaking: false
+  highlights:
+  - You can now upload a custom image to use as your assistant's avatar. Pick one in your assistant's settings under the Identity section, and
+    it appears wherever your assistant does.
+  - Invite someone who already has an account to a workspace, and they get an email with their invitation.
+  date: '2026-10-12'
+- breaking: false
+  highlights:
+  - Plans now fill the whole panel instead of a narrow card, so you can read the full plan in place.
+  - Close open PRs in bulk from the new Close all PRs menu on the Autobuild PRs surface.
+  - Simpler PR views in Autobuild, with multi-select defaults that are personal to you, make the surface easier to work in.
+  date: '2026-10-09'
+- breaking: false
+  highlights:
+  - 'Skills that live in your repositories now appear alongside workspace skills: once a repository is opted in, its skills show up in discovery,
+    the SDK, rosters, and matching.'
+  - Claude Haiku 5.5 is available in the model picker, and existing selections keep working.
+  - 'Your email drafts live in one place: replies thread under the original message, drafts save by default as you write, and you can edit an
+    email during review.'
+  date: '2026-10-08'
+- breaking: false
+  highlights:
+  - Review QA evidence for every build.
+  - You can filter the Autobuild builds view to just your own builds, so your work is easy to find when the rest of the workspace is building
+    too.
+  - Workspace admins can make a repo's skills available to the whole workspace.
+  date: '2026-10-07'
+- breaking: false
+  highlights:
+  - 'The Execution Loop graph is a canvas: add, connect, and delete steps in place, with undo.'
+  - Autobuild lists, build cards, and kanban board columns sort by how long each card has been in its current state, so the order shows what is
+    fresh and what has been waiting.
+  - 'See at a glance when your meeting starts: the expanded meeting card counts down by the second, follows a rescheduled start, and shows the
+    provider''s logo on the Join button.'
+  date: '2026-10-06'
+current_version: '2026-10-21'
+note: Versioning scheme is date-based (YYYY-MM-DD).
+docs: https://help.obvious.ai/changelog

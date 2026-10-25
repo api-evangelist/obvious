@@ -1,0 +1,20 @@
+generated: '2026-10-24'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.obvious.ai/developer-api/authentication
+sources:
+- https://help.obvious.ai/developer-api/authentication
+- https://help.obvious.ai/account/two-factor-auth
+- https://help.obvious.ai/getting-started
+- https://help.obvious.ai/getting-started/sidebar-sections
+description: Authentication via API key as Bearer token
+schemes:
+- type: http-bearer
+  name: API Key
+  evidence: All requests to the Obvious API require authentication via an API key passed as a Bearer token in the Authorization header.
+  location: header
+  header: Authorization
+  how_to_obtain: API keys are created in workspace settings under Settings → Workspace → Integrations → External Access. Click Create External
+    Access, enter a name, and copy the displayed key.
+note: No OAuth2 or other authentication schemes are documented.
+docs: https://help.obvious.ai/developer-api/authentication
